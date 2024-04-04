@@ -1,0 +1,11 @@
+TAMIM = int(input("Please enter tamim,s run:"))
+SHAKIB = int(input("Please enter Shakib,s run:"))
+MAHMUDULLAH = int(input("Please enter Mahmudullah,s run:"))
+
+if TAMIM and SHAKIB < MAHMUDULLAH:
+    print("Mahmud is the man of the match!")
+elif SHAKIB and MAHMUDULLAH < TAMIM:
+    print("tamim is the man of the match!")
+else:
+    TAMIM and MAHMUDULLAH < SHAKIB
+    print("shakib is the man of the match!")
